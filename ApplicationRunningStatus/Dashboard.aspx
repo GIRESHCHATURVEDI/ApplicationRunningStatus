@@ -16,7 +16,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Timer ID="Timer1" runat="server" Interval="5000" runat="server" OnTick="Timer1_Tick">
+        <asp:Timer ID="Timer1" runat="server" Interval="5000" runat="server" OnTick="Timer1_Tick"     >
         </asp:Timer>
         <!-- Page Content -->
 

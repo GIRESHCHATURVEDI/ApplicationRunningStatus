@@ -130,7 +130,7 @@ namespace ApplicationRunningStatus
             lbl.Text = IsPLC_MESworking == 1 ? "RUNNING" : "STOPPED";
 
             img = (Image)FindControl("img_REJ");
-            lbl = (Label)FindControl("lbl_PLC_Rej");76
+            lbl = (Label)FindControl("lbl_PLC_Rej");
             url = IsPLC_REJworking == 1 ? "Images/Green_Background.jpg" : "Images/Red_Background.jpg";
             img.ImageUrl = url;
             lbl.Text = IsPLC_REJworking == 1 ? "RUNNING" : "STOPPED";
